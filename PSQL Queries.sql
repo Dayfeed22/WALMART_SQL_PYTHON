@@ -67,8 +67,6 @@ WHERE rank = 1
 -- Q. 4 
 -- Calculate the total quantity of items sold per payment method. List payment_method and total_quantity.
 
-
-
 SELECT 
 	 payment_method,
 	 -- COUNT(*) as no_payments,
@@ -124,7 +122,7 @@ WHERE rank = 1
 
 
 -- Q.8
--- Categorize sales into 3 group MORNING, AFTERNOON, EVENING 
+-- Categorize sales into 2 group MORNING, AFTERNOON, EVENING 
 -- Find out each of the shift and number of invoices
 
 SELECT
